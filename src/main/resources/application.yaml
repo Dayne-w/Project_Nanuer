@@ -35,5 +35,10 @@ spring:
 jwt:
   secret: ${JWT_TOKEN}
 
+coolsms:
+  devHee:
+    apikey: ${COOLSMS_API_KEY}
+    apisecret: ${COOLSMS_API_SECRET}
+    fromnumber: ${PHONE_NUMBER}
 
 
