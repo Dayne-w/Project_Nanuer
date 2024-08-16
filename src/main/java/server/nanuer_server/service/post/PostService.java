@@ -2,9 +2,6 @@ package server.nanuer_server.service.post;
 
 import server.nanuer_server.config.BaseException;
 import server.nanuer_server.domain.Progress;
-import com.example.nanuer_server.domain.entity.*;
-import com.example.nanuer_server.domain.repository.*;
-import com.example.nanuer_server.dto.Post.*;
 import server.nanuer_server.service.heart.HeartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

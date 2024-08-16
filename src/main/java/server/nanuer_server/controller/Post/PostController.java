@@ -8,7 +8,6 @@ import server.nanuer_server.domain.entity.PostEntity;
 import server.nanuer_server.domain.repository.Chat.ChatRoomRepository;
 import server.nanuer_server.domain.repository.PostRepository;
 import server.nanuer_server.domain.repository.UserRepository;
-import com.example.nanuer_server.dto.Post.*;
 import server.nanuer_server.service.post.PostService;
 import server.nanuer_server.service.User.UserService;
 import com.fasterxml.jackson.annotation.JsonIgnore;

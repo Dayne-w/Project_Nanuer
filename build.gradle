@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.example'
+group = 'nanuer_server'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -28,10 +28,10 @@ dependencies {
 	//db
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	//mysql
-	runtimeOnly 'mysql:mysql-connector-java'
+	// runtimeOnly 'mysql:mysql-connector-java'
 	//h2
 	//implementation 'com.h2database:h2'
-	//runtimeOnly 'com.h2database:h2'
+	runtimeOnly 'com.h2database:h2'
 
 	//시큐리티
 	implementation 'org.springframework.boot:spring-boot-starter-security'
