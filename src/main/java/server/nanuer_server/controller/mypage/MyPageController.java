@@ -2,10 +2,10 @@ package server.nanuer_server.controller.mypage;
 
 import server.nanuer_server.config.BaseException;
 import server.nanuer_server.config.BaseResponse;
-import server.nanuer_server.config.User.JwtTokenProvider;
+import server.nanuer_server.config.user.JwtTokenProvider;
 import server.nanuer_server.domain.entity.PostEntity;
-import server.nanuer_server.dto.User.UserInfoDto;
-import server.nanuer_server.service.User.UserService;
+import server.nanuer_server.dto.user.UserInfoDto;
+import server.nanuer_server.service.user.UserService;
 import server.nanuer_server.service.mypage.MyPageService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

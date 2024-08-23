@@ -2,8 +2,8 @@ package server.nanuer_server.domain.entity;
 
 import server.nanuer_server.domain.BaseTimeEntity;
 import server.nanuer_server.domain.Progress;
-import server.nanuer_server.dto.Post.PostDto;
-import server.nanuer_server.dto.Post.UpdatePostReqDto;
+import server.nanuer_server.dto.post.PostDto;
+import server.nanuer_server.dto.post.UpdatePostReqDto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;

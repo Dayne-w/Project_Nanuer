@@ -6,7 +6,7 @@ import server.nanuer_server.domain.entity.UserEntity;
 import server.nanuer_server.domain.repository.HeartRepository;
 import server.nanuer_server.domain.repository.PostRepository;
 import server.nanuer_server.domain.repository.UserRepository;
-import server.nanuer_server.dto.User.UserInfoDto;
+import server.nanuer_server.dto.user.UserInfoDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

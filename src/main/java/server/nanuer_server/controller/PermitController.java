@@ -2,13 +2,13 @@ package server.nanuer_server.controller;
 
 import server.nanuer_server.config.BaseException;
 import server.nanuer_server.config.BaseResponse;
-import server.nanuer_server.config.User.JwtTokenProvider;
+import server.nanuer_server.config.user.JwtTokenProvider;
 import server.nanuer_server.domain.entity.UserEntity;
 import server.nanuer_server.domain.entity.UserRole;
-import server.nanuer_server.dto.User.JoinUserDto;
-import server.nanuer_server.dto.User.LoginUserDto;
-import server.nanuer_server.dto.User.UserInfoDto;
-import server.nanuer_server.service.User.UserService;
+import server.nanuer_server.dto.user.JoinUserDto;
+import server.nanuer_server.dto.user.LoginUserDto;
+import server.nanuer_server.dto.user.UserInfoDto;
+import server.nanuer_server.service.user.UserService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.web.bind.annotation.*;

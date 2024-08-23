@@ -8,7 +8,7 @@ import server.nanuer_server.domain.entity.UserEntity;
 import server.nanuer_server.domain.repository.Chat.ChatRoomRepository;
 import server.nanuer_server.domain.repository.PostRepository;
 import server.nanuer_server.domain.repository.UserRepository;
-import server.nanuer_server.service.User.UserService;
+import server.nanuer_server.service.user.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.stereotype.Service;

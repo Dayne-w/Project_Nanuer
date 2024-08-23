@@ -2,7 +2,7 @@ package server.nanuer_server.service.heart;
 
 import server.nanuer_server.config.BaseException;
 import server.nanuer_server.config.BaseResponseStatus;
-import server.nanuer_server.config.User.JwtTokenProvider;
+import server.nanuer_server.config.user.JwtTokenProvider;
 import server.nanuer_server.domain.entity.HeartEntity;
 import server.nanuer_server.domain.entity.PostEntity;
 import server.nanuer_server.domain.entity.UserEntity;

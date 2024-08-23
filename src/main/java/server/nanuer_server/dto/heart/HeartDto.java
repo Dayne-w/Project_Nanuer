@@ -1,8 +1,8 @@
 package server.nanuer_server.dto.heart;
 
 import server.nanuer_server.domain.entity.HeartEntity;
-import server.nanuer_server.dto.Post.PostDto;
-import server.nanuer_server.dto.User.UserInfoDto;
+import server.nanuer_server.dto.post.PostDto;
+import server.nanuer_server.dto.user.UserInfoDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

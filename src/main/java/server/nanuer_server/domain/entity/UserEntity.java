@@ -1,7 +1,7 @@
 package server.nanuer_server.domain.entity;
 
 import server.nanuer_server.domain.BaseTimeEntity;
-import server.nanuer_server.dto.User.UserInfoDto;
+import server.nanuer_server.dto.user.UserInfoDto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.hibernate.annotations.ColumnDefault;

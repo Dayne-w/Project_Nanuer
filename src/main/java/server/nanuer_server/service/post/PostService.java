@@ -14,9 +14,9 @@ import server.nanuer_server.domain.repository.CategoryRepository;
 import server.nanuer_server.domain.repository.HeartRepository;
 import server.nanuer_server.domain.repository.PostRepository;
 import server.nanuer_server.domain.repository.UserRepository;
-import server.nanuer_server.dto.Post.CreatePostReqDto;
-import server.nanuer_server.dto.Post.GetPostResDto;
-import server.nanuer_server.dto.Post.UpdatePostReqDto;
+import server.nanuer_server.dto.post.CreatePostReqDto;
+import server.nanuer_server.dto.post.GetPostResDto;
+import server.nanuer_server.dto.post.UpdatePostReqDto;
 
 import javax.transaction.Transactional;
 import java.util.*;
