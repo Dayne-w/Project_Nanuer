@@ -1,4 +1,4 @@
-package server.nanuer_server.domain.repository.Chat;
+package server.nanuer_server.domain.repository.chat;
 
 import server.nanuer_server.domain.entity.ChatRoomEntity;
 import server.nanuer_server.domain.entity.PostEntity;

@@ -6,7 +6,7 @@ import server.nanuer_server.config.user.JwtTokenProvider;
 import server.nanuer_server.domain.entity.ChatMessageEntity;
 import server.nanuer_server.domain.entity.ChatRoomEntity;
 import server.nanuer_server.domain.entity.UserEntity;
-import server.nanuer_server.domain.repository.Chat.ChatRoomRepository;
+import server.nanuer_server.domain.repository.chat.ChatRoomRepository;
 import server.nanuer_server.domain.repository.UserRepository;
 import server.nanuer_server.dto.chat.GetChatUserDto;
 import server.nanuer_server.service.user.UserService;

@@ -5,7 +5,7 @@ import server.nanuer_server.config.BaseResponse;
 import server.nanuer_server.domain.Progress;
 import server.nanuer_server.domain.entity.ChatRoomEntity;
 import server.nanuer_server.domain.entity.PostEntity;
-import server.nanuer_server.domain.repository.Chat.ChatRoomRepository;
+import server.nanuer_server.domain.repository.chat.ChatRoomRepository;
 import server.nanuer_server.domain.repository.PostRepository;
 import server.nanuer_server.domain.repository.UserRepository;
 import server.nanuer_server.service.post.PostService;
